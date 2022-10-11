@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="flex mx-6 mt-5 md:mx-[110px] lg:mx-28 justify-between">
+      <a href="index.html">
+        <img
+          class="transition-all hover:scale-[105%]"
+          src="img/logo.png"
+          alt=""
+      /></a>
+
+      <div class="flex">
+        <!-- menu -->
+        <ul
+          id="menu"
+          class="invisible flex flex-col fixed top-32 lg:static md:visible mt-2 right-10 z-10 lg:flex-row md:static md:flex-row"
+        >
+          <li>
+            <a
+              class="text-cyan-800 font-bold uppercase lg:text-sm lg:pl-12 md:pl-7 hover:text-red-700"
+              href="#"
+              >Trang Chủ</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-cyan-800 font-bold uppercase lg:text-sm lg:pl-12 md:pl-7 hover:text-red-700"
+              href=""
+              >Các Cuộc Thi</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-cyan-800 font-bold uppercase lg:text-sm lg:pl-12 md:pl-7 hover:text-red-700"
+              href=""
+              >Test Năng Lực</a
+            >
+          </li>
+        </ul>
+        <!--  -->
+        <div class="flex mt-2">
+          <button
+            class="mb-5 md:ml-6 rounded px-4 lg:ml-8 text-cyan-800 border border-current transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300"
+          >
+            Login
+          </button>
+          <div id="icon_menu" class="cursor-pointer pl-5 md:hidden lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+    <!-- banner -->
+    <div>
+      <img class="w-full mb-7" src="img/banner.png" alt="" />
+    </div>
+    <!-- testing -->
+    <div
+      class="mx-6 flex flex-col md:mx-[110px] lg:mx-28 md:flex-row lg:flex-row"
+    >
+      <div class="lg:mr-2 flex-2 lg:mt-[75px] md:mt-[50px]">
+        <a href="#">
+          <h2 class="font-bold text-orange-600 text-lg lg:text-3xl">
+            Ai có thể tham gia cuộc thi?
+          </h2></a
+        >
+
+        <p
+          class="font-semibold text-sm lg:leading-7 md:leading-7 mb-2 md:w-[320px] lg:w-[500px] lg:text-base"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged.
+        </p>
+      </div>
+      <img
+        class="mx-auto transform transition-all hover:scale-[105%] md:mx-0 md:pl-2 md:w-[450px] lg:w-[500px] lg:mx-[120px]"
+        src="img/tessting.png"
+        alt=""
+      />
+    </div>
+    <!-- benifit -->
+    <div class="mx-6 mt-6 text-lg lg:mx-28 md:mx-[110px]">
+      <div>
+        <a href="">
+          <h2 class="font-bold lg:text-3xl">Lợi ích khi tham gia</h2></a
+        >
+      </div>
+      <div
+        class="mx-auto mt-4 flex flex-col lg:flex-row md:flex-row lg:mt-4 md:flex-wrap md:mt-4 lg:flex-wrap"
+      >
+        <img
+          class="pb-6 transition-all w-[350px] mx-auto lg:mx-0 hover:scale-[105%] cursor-pointer lg:w-[400px]"
+          src="img/benifit_1.png"
+          alt=""
+        />
+        <img
+          class="pb-6 w-[250px] transition-all hover:scale-[105%] cursor-pointer mx-auto md:w-[280px] lg:ml-[120px] md:ml-10 lg:w-auto"
+          src="img/benifit_2.png"
+          alt=""
+        />
+        <img
+          class="pb-6 w-[350px] mx-auto transition-all hover:scale-[105%] cursor-pointer md:mx-0 lg:w-[400px]"
+          src="img/benifit_3.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- competitions -->
+    <div class="mx-6 md:mx-[110px] lg:mx-28">
+      <div>
+        <p class="font-bold lg:text-3xl mt-6">Các cuộc thi</p>
+      </div>
+      <div
+        class="grid grid-cols-1 place-items-center md:place-items-stretch lg:place-items-stretch lg:grid-cols-3 md:grid-cols-2 md:gap-10 lg:gap-9"
+      >
+        <div class="mt-8">
+          <img
+            class="w-[290px] lg:w-full transition-all hover:scale-[102%] md:w-full mb-3"
+            src="img/test_1.png"
+            alt=""
+          />
+          <a href=""
+            ><h4
+              class="lg:text-xl w-[300px] lg:w-full font-bold text-[16px] mb-4 md:w-full"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h4></a
+          >
+          <div class="mb-6 lg:text-lg">
+            <p class="opacity-80">Thời gian: 20h00 ngày 08 - 03 - 2022</p>
+            <p class="opacity-80 mt-2">
+              Số người tham gia
+              <span class="border bg-sky-800 rounded text-white ml-2 px-1"
+                >32</span
+              >
+            </p>
+          </div>
+          <button
+            class="w-[300px] lg:text-lg text-orange-600 border-[2px] hover:text-white md:w-full border-orange-600 hover:bg-orange-600 rounded h-8 pb-1 text-lg transition-all lg:w-full hover:scale-[102%]"
+          >
+            Đăng ký
+          </button>
+        </div>
+        <div class="mt-8">
+          <img
+            class="w-[290px] lg:w-full transition-all hover:scale-[102%] md:w-full mb-3"
+            src="img/test_2.png"
+            alt=""
+          />
+          <a href=""
+            ><h4
+              class="lg:text-xl w-[300px] lg:w-full font-bold text-[16px] mb-4 md:w-full"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h4></a
+          >
+          <div class="mb-6 lg:text-lg">
+            <p class="opacity-80">Thời gian: 20h00 ngày 08 - 03 - 2022</p>
+            <p class="opacity-80 mt-2">
+              Số người tham gia
+              <span class="border bg-sky-800 rounded text-white ml-2 px-1"
+                >32</span
+              >
+            </p>
+          </div>
+          <button
+            class="w-[300px] lg:text-lg text-orange-600 border-[2px] hover:text-white md:w-full border-orange-600 hover:bg-orange-600 rounded h-8 pb-1 text-lg transition-all lg:w-full hover:scale-[102%]"
+          >
+            Đăng ký
+          </button>
+        </div>
+        <div class="mt-8">
+          <img
+            class="w-[290px] lg:w-full transition-all hover:scale-[102%] md:w-full mb-3"
+            src="img/test_3.png"
+            alt=""
+          />
+          <a href=""
+            ><h4
+              class="lg:text-xl w-[300px] lg:w-full font-bold text-[16px] mb-4 md:w-full"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h4></a
+          >
+          <div class="mb-6 lg:text-lg">
+            <p class="opacity-80">Thời gian: 20h00 ngày 08 - 03 - 2022</p>
+            <p class="opacity-80 mt-2">
+              Số người tham gia
+              <span class="border bg-sky-800 rounded text-white ml-2 px-1"
+                >32</span
+              >
+            </p>
+          </div>
+          <button
+            class="w-[300px] lg:text-lg text-orange-600 border-[2px] hover:text-white md:w-full border-orange-600 hover:bg-orange-600 rounded h-8 pb-1 text-lg lg:w-full transition-all hover:scale-[102%]"
+          >
+            Đăng ký
+          </button>
+        </div>
+        <div class="mt-8">
+          <img
+            class="w-[290px] lg:w-full transition-all hover:scale-[102%] md:w-full mb-3"
+            src="img/test_1.png"
+            alt=""
+          />
+          <a href=""
+            ><h4
+              class="lg:text-xl w-[300px] lg:w-full font-bold text-[16px] mb-4 md:w-full"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h4></a
+          >
+          <div class="mb-6 lg:text-lg">
+            <p class="opacity-80">Thời gian: 20h00 ngày 08 - 03 - 2022</p>
+            <p class="opacity-80 mt-2">
+              Số người tham gia
+              <span class="border bg-sky-800 rounded text-white ml-2 px-1"
+                >32</span
+              >
+            </p>
+          </div>
+          <button
+            class="w-[300px] lg:text-lg text-orange-600 border-[2px] hover:text-white md:w-full border-orange-600 hover:bg-orange-600 rounded h-8 pb-1 text-lg transition-all lg:w-full hover:scale-[102%]"
+          >
+            Đăng ký
+          </button>
+        </div>
+        <div class="mt-8">
+          <img
+            class="w-[290px] lg:w-full transition-all hover:scale-[102%] md:w-full mb-3"
+            src="img/test_2.png"
+            alt=""
+          />
+          <a href=""
+            ><h4
+              class="lg:text-xl w-[300px] lg:w-full font-bold text-[16px] mb-4 md:w-full"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h4></a
+          >
+          <div class="mb-6 lg:text-lg">
+            <p class="opacity-80">Thời gian: 20h00 ngày 08 - 03 - 2022</p>
+            <p class="opacity-80 mt-2">
+              Số người tham gia
+              <span class="border bg-sky-800 rounded text-white ml-2 px-1"
+                >32</span
+              >
+            </p>
+          </div>
+          <button
+            class="w-[300px] lg:text-lg text-orange-600 border-[2px] hover:text-white md:w-full border-orange-600 hover:bg-orange-600 rounded h-8 pb-1 text-lg transition-all lg:w-full hover:scale-[102%]"
+          >
+            Đăng ký
+          </button>
+        </div>
+        <div class="mt-8">
+          <img
+            class="w-[290px] lg:w-full transition-all hover:scale-[102%] md:w-full mb-3"
+            src="img/test_3.png"
+            alt=""
+          />
+          <a href=""
+            ><h4
+              class="lg:text-xl w-[300px] lg:w-full font-bold text-[16px] mb-4 md:w-full"
+            >
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h4></a
+          >
+          <div class="mb-6 lg:text-lg">
+            <p class="opacity-80">Thời gian: 20h00 ngày 08 - 03 - 2022</p>
+            <p class="opacity-80 mt-2">
+              Số người tham gia
+              <span class="border bg-sky-800 rounded text-white ml-2 px-1"
+                >32</span
+              >
+            </p>
+          </div>
+          <button
+            class="w-[300px] lg:text-lg text-orange-600 border-[2px] hover:text-white md:w-full border-orange-600 hover:bg-orange-600 rounded h-8 pb-1 text-lg lg:w-full transition-all hover:scale-[102%]"
+          >
+            Đăng ký
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascrip -->
+    <script src="main.js"></script>
+  </body>
+</html>

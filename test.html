@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- nav -->
+
+    <div class="flex mx-1 mt-5 md:mx-[110px] lg:mx-28 justify-around">
+      <a href="index.html">
+        <img
+          class="transition-all hover:scale-[105%]"
+          src="img/logo.png"
+          alt=""
+      /></a>
+
+      <div class="flex">
+        <!-- menu -->
+        <ul
+          id="menu"
+          class="invisible flex flex-col fixed top-32 lg:static md:visible mt-2 right-10 z-10 lg:flex-row md:static md:flex-row"
+        >
+          <li>
+            <a
+              class="text-cyan-800 font-bold uppercase lg:text-lg lg:pl-12 md:pl-7 hover:text-red-700"
+              href="#"
+              >Trang Chủ</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-cyan-800 font-bold uppercase lg:text-lg lg:pl-12 md:pl-7 hover:text-red-700"
+              href=""
+              >Các Cuộc Thi</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-cyan-800 font-bold uppercase lg:text-lg lg:pl-12 md:pl-7 hover:text-red-700"
+              href=""
+              >Test Năng Lực</a
+            >
+          </li>
+        </ul>
+        <!--  -->
+        <div class="flex mt-2">
+          <button
+            class="mb-5 md:ml-6 rounded px-4 lg:ml-8 text-cyan-800 border border-current transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300"
+          >
+            Login
+          </button>
+          <div id="icon_menu" class="cursor-pointer pl-5 md:hidden lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+    <!-- banner -->
+    <div>
+      <img class="w-full mb-7" src="img/banner.png" alt="" />
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

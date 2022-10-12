@@ -13,7 +13,7 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="h-[7000px]">
+  <body class="h-[5500px]">
     <!-- nav -->
     <div class="flex mx-6 mt-5 md:mx-[110px] lg:mx-28 justify-between">
       <a href="index.html">
@@ -75,13 +75,15 @@
     >
       <div class="lg:mr-2 flex-2 lg:mt-[75px] md:mt-[50px]">
         <a href="#">
-          <h2 class="font-bold text-orange-600 text-lg lg:text-3xl">
+          <h2
+            class="font-bold text-orange-600 text-lg md:text-xl lg:text-3xl transition-all hover:text-red-600 hover:scale-[103%]"
+          >
             Ai có thể tham gia cuộc thi?
           </h2></a
         >
 
         <p
-          class="font-semibold text-sm lg:leading-7 md:leading-7 mb-2 md:w-[320px] lg:w-[500px] lg:text-base"
+          class="font-semibold text-sm lg:leading-7 md:leading-7 mb-2 md:w-[320px] lg:w-[500px] md:text-base lg:text-base"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -101,7 +103,9 @@
     <div class="mx-6 mt-6 text-lg lg:mx-28 md:mx-[110px]">
       <div>
         <a href="">
-          <h2 class="font-bold lg:text-3xl">Lợi ích khi tham gia</h2></a
+          <h2 class="font-bold md:text-xl lg:text-3xl">
+            Lợi ích khi tham gia
+          </h2></a
         >
       </div>
       <div
@@ -126,8 +130,19 @@
     </div>
     <!-- competitions -->
     <div class="mx-6 md:mx-[110px] lg:mx-28">
-      <div>
-        <p class="font-bold lg:text-3xl mt-6">Các cuộc thi</p>
+      <div class="flex justify-between">
+        <p class="font-bold md:text-xl lg:text-3xl mt-6">Các cuộc thi</p>
+        <div class="text-lg mt-6">
+          <label
+            ><i
+              class="text-cyan-400 lg:text-2xl md-text-xl fa-solid fa-magnifying-glass"
+            ></i
+            ><input
+              class="w-[120px] ml-3 lg:ml-5"
+              placeholder="Tìm kiếm"
+              type="text"
+          /></label>
+        </div>
       </div>
       <div
         class="grid grid-cols-1 place-items-center md:place-items-stretch lg:place-items-stretch lg:grid-cols-3 md:grid-cols-2 md:gap-10 lg:gap-9"
@@ -309,7 +324,7 @@
       </div>
     </div>
     <!-- top month -->
-    <div class="mx-6 mt-10 text-lg">
+    <div class="mx-6 mt-10 md:mx-[110px] lg:mx-28 text-lg">
       <div>
         <p class="text-base font-bold">Bảng xếp hạng trong tháng</p>
       </div>
@@ -320,10 +335,10 @@
       </div>
       <!-- design web -->
       <div
-        class="grid grid-cols-2 gap-2 md:grid-cols-3 :md:gap-0 lg:grid-cols-4 lg:gap-0"
+        class="grid grid-cols-2 gap-8 md:grid-cols-3 md:gap-10 lg:grid-cols-4 lg:gap-14"
       >
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -333,35 +348,32 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Javascript
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                HTML/Css
-              </button>
-            </p>
-            <p>
-              <button
-                class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                React Js
-              </button>
-              <button
-                class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Node Js
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Javascript
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              HTML/Css
+            </button>
+
+            <button
+              class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              React Js
+            </button>
+            <button
+              class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Node Js
+            </button>
           </div>
         </div>
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -371,35 +383,32 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Javascript
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                HTML/Css
-              </button>
-            </p>
-            <p>
-              <button
-                class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                React Js
-              </button>
-              <button
-                class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Node Js
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Javascript
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              HTML/Css
+            </button>
+
+            <button
+              class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              React Js
+            </button>
+            <button
+              class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Node Js
+            </button>
           </div>
         </div>
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -409,35 +418,32 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Javascript
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                HTML/Css
-              </button>
-            </p>
-            <p>
-              <button
-                class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                React Js
-              </button>
-              <button
-                class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Node Js
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Javascript
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              HTML/Css
+            </button>
+
+            <button
+              class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              React Js
+            </button>
+            <button
+              class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Node Js
+            </button>
           </div>
         </div>
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -447,45 +453,43 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Javascript
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                HTML/Css
-              </button>
-            </p>
-            <p>
-              <button
-                class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                React Js
-              </button>
-              <button
-                class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Node Js
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Javascript
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              HTML/Css
+            </button>
+
+            <button
+              class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              React Js
+            </button>
+            <button
+              class="rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Node Js
+            </button>
           </div>
         </div>
       </div>
       <!-- graphic design -->
+
       <div>
         <p class="my-6 border-b-4 inline-block border-orange-700 opacity-80">
-          Thiết kế do hoa
+          Thiết kế đồ họa
         </p>
       </div>
       <div
-        class="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-0"
+        class="grid grid-cols-2 gap-8 md:grid-cols-3 md:gap-10 lg:grid-cols-4 lg:gap-14"
       >
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -495,23 +499,21 @@
               </p>
             </div>
           </div>
-          <div>
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Photoshop
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Illustrator
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Photoshop
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Illustrator
+            </button>
           </div>
         </div>
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -521,30 +523,27 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white pb-[2px]"
-              >
-                Premier Pro
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Cinema 4D
-              </button>
-            </p>
-            <p>
-              <button
-                class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Photoshop
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Premier Pro
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Cinema 4D
+            </button>
+
+            <button
+              class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Photoshop
+            </button>
           </div>
         </div>
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -554,23 +553,21 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Maya
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                After Effect
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Maya
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              After Effect
+            </button>
           </div>
         </div>
         <div>
-          <div class="pl-6">
+          <div class="pl-12 lg:pl-16">
             <img class="pl-5" src="img/user.png" alt="" />
             <p class="my-1">Nguyễn Văn A</p>
             <div class="my-1">
@@ -580,31 +577,27 @@
               </p>
             </div>
           </div>
-          <div class="">
-            <p>
-              <button
-                class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Maya
-              </button>
-              <button
-                class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Photoshop
-              </button>
-            </p>
-            <p>
-              <button
-                class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
-              >
-                Premier Pro
-              </button>
-            </p>
+          <div class="grid grid-cols-2">
+            <button
+              class="mr-2 mb-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Maya
+            </button>
+            <button
+              class="rounded mb-2 transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Photoshop
+            </button>
+
+            <button
+              class="mr-2 rounded transition-all hover:scale-[103%] bg-cyan-500 text-white px-2 pb-[2px]"
+            >
+              Premier Pro
+            </button>
           </div>
         </div>
       </div>
     </div>
-
     <!-- javascrip -->
 
     <script src="main.js"></script>

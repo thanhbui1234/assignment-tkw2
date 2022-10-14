@@ -1,22 +1,34 @@
 var menu = document.querySelector("#menu");
+console.log(menu);
 var icon_menu = document.querySelector("#icon_menu");
 icon_menu.addEventListener("click", function () {
   menu.classList.toggle("invisible");
-  console.log(menu);
+});
+var test1 = document.querySelector("#btn1");
+test1.addEventListener("click", function () {
+  alert("Ban da dang ky"); // TODO
+});
+var test2 = document.querySelector("#btn2");
+test2.addEventListener("click", function () {
+  alert("Ban da dang ky"); // TODO
 });
 
-var bnt = document.querySelector(".hehe");
-
-bnt.addEventListener("click", function () {
-  alert("HET THOI GIAN DANG KY");
+var test3 = document.querySelector("#btn3");
+test3.addEventListener("click", function () {
+  alert("Ban da dang ky"); // TODO
 });
-var bnt2 = document.querySelector(".hehe2");
 
-bnt2.addEventListener("click", function () {
-  alert("HET THOI GIAN DANG KY");
+var test4 = document.querySelector("#btn4");
+test4.addEventListener("click", function () {
+  alert("Ban da dang ky"); // TODO
 });
-var bnt3 = document.querySelector(".hehe3");
 
-bnt3.addEventListener("click", function () {
-  alert("HET THOI GIAN DANG KY");
+var test5 = document.querySelector("#btn5");
+test5.addEventListener("click", function () {
+  alert("Ban da dang ky"); // TODO
+});
+
+var test6 = document.querySelector("#btn6");
+test6.addEventListener("click", function () {
+  alert("Ban da dang ky"); // TODO
 });
